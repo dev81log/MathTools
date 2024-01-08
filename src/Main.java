@@ -15,6 +15,7 @@ public class Main {
 
         Map<String, Object> operationResults = new LinkedHashMap<>();
 
+        // consult the documentation for the Math class in Java
         operationResults.put("sumNumbers", tools.sumNumbers(num1, num2, num3, num4, num5));
         operationResults.put("subtractNumbers", tools.subtractNumbers(num1, num2, num3, num4, num5));
         operationResults.put("multiplyNumbers", tools.multiplyNumbers(num1, num2, num3, num4, num5));
@@ -28,8 +29,9 @@ public class Main {
         operationResults.put("gcd", tools.gcd(num1, num2));
         operationResults.put("isPrime", tools.isPrime(num1));
         operationResults.put("cubicRoot", (int) tools.cubicRoot(num1));
+        operationResults.put("powerOfThree", (int) tools.powerOfThree(num1));
 
-        // Print the results
+
         System.out.println("Results of the operations:");
         for (Map.Entry<String, Object> entry : operationResults.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
