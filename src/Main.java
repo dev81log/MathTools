@@ -29,6 +29,7 @@ public class Main {
         operationResults.put("isPrime", tools.isPrime(num1));
         operationResults.put("cubicRoot", (int) tools.cubicRoot(num1));
 
+        // Print the results
         System.out.println("Results of the operations:");
         for (Map.Entry<String, Object> entry : operationResults.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
