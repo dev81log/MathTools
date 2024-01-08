@@ -5,7 +5,8 @@
 
 ## Overview
 
-The MathTools project is a comprehensive Java-based application designed to perform a variety of mathematical operations. It includes a refactored `MathTools` class with methods for basic arithmetic, square and cubic roots, powers, factorial, Fibonacci sequence, prime number checking, least common multiple (LCM), and greatest common divisor (GCD). The project aims to provide a clean, readable, and maintainable codebase while offering robust functionality for mathematical computations.
+The MathTools project is a comprehensive Java-based application designed to perform a variety of mathematical operations. It includes a refactored `MathTools` class with methods for basic arithmetic, square and cubic roots, powers, factorial, Fibonacci sequence, prime number checking, least common multiple (LCM), and greatest common divisor (GCD) and more. The project aims to provide a clean, readable, and maintainable codebase while offering robust functionality for mathematical computations.
+At the end of this class, there is a brief documented description of the methods.
 
 ## Features
 
@@ -16,6 +17,7 @@ The MathTools project is a comprehensive Java-based application designed to perf
 - **Fibonacci Sequence**: Generate the Fibonacci number at a specific position in the sequence.
 - **Prime Number Check**: Determine whether a number is prime.
 - **Least Common Multiple (LCM) and Greatest Common Divisor (GCD)**: Compute the LCM and GCD of two numbers.
+- **And More**...
 
 ## Usage
 
