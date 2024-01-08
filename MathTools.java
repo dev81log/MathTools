@@ -1,5 +1,5 @@
 public class MathTools {
-    //methods
+
     public int sumNumbers(int... numbers) {
         int sum = 0;
         for (int number : numbers) {
